@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>E:\Revit Addin\R0 1\MyRevitCommands\MyRevitCommands\obj\Debug\MyRevitCommands.dll</Assembly>
+		<AddInId>D6DBF113-FF21-448E-A008-1DC4175E3B04</AddInId>
+		<FullClassName>MyRevitCommands.GetElementId</FullClassName>
+		<Text>GetElementId</Text>
+		<Description>Get the Id from an element</Description>
+		<VendorId>Jaydeo</VendorId>
+		<VendorDescription>@RevitAPI</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+
+	<AddIn Type="Command">
+		<Name>CollectWindows</Name>
+		<Assembly>E:\Revit Addin\R0 1\MyRevitCommands\MyRevitCommands\obj\Debug\MyRevitCommands.dll</Assembly>
+		<AddInId>069922FA-0C46-4229-B713-CECE88B700DF</AddInId>
+		<FullClassName>MyRevitCommands.CollectWindows</FullClassName>
+		<Text>CollectWindows</Text>
+		<Description>To Count Windows</Description>
+		<VendorId>Jaydeo</VendorId>
+		<VendorDescription>@RevitAPI</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+
+	<AddIn Type="Command">
+		<Name>DeleteElement</Name>
+		<Assembly>E:\Revit Addin\R0 1\MyRevitCommands\MyRevitCommands\obj\Debug\MyRevitCommands.dll</Assembly>
+		<AddInId>E4DD1F53-89F4-4583-B058-A791576A6F94</AddInId>
+		<FullClassName>MyRevitCommands.DeleteElement</FullClassName>
+		<Text>DeleteElement</Text>
+		<Description>To Delete Selected Widows</Description>
+		<VendorId>Jaydeo</VendorId>
+		<VendorDescription>@RevitAPI</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+
+	<AddIn Type="Command">
+		<Name>placeFamily</Name>
+		<Assembly>E:\Revit Addin\R0 1\MyRevitCommands\MyRevitCommands\obj\Debug\MyRevitCommands.dll</Assembly>
+		<AddInId>1B5D8E03-DD78-46D7-80EB-66D35E91BF29</AddInId>
+		<FullClassName>MyRevitCommands.placeFamily</FullClassName>
+		<Text>placeFamily</Text>
+		<Description>To placeFamily  </Description>
+		<VendorId>Jaydeo</VendorId>
+		<VendorDescription>@RevitAPI</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+
+	<AddIn Type="Command">
+		<Name>placeWindows</Name>
+		<Assembly>E:\Revit Addin\R0 1\MyRevitCommands\MyRevitCommands\obj\Debug\MyRevitCommands.dll</Assembly>
+		<AddInId>AE1C1E11-C8D6-4193-B3A5-03B137A7EE04</AddInId>
+		<FullClassName>MyRevitCommands.placeWindows</FullClassName>
+		<Text>placeWindows</Text>
+		<Description>To placeWindows  </Description>
+		<VendorId>Jaydeo</VendorId>
+		<VendorDescription>@RevitAPI</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+</RevitAddIns>
+
+
